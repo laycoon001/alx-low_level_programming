@@ -2,19 +2,20 @@
 
 
 /**
- * main - program that print all single digit number of base 10 starting from 0
+ * main - print number of base ten
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	int i;
+	int base_ten = 0;
 
-	for (i = 0; i <= 9; i++)
+	while (base_ten <= 10)
 	{
-		printf("%d\n", i);
+		putchar(base_ten);
+		base_ten++;
 	}
-
+	putchar('\n');
 	return (0);
 }
