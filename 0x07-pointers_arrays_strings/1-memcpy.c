@@ -1,23 +1,23 @@
 #include "main.h"
-
 /**
-  * _strchr - main function
-  *
-  * @s: Function parameter
-  *
-  * @c: Function parameter
-  *
-  * Return: Always o.
-  */
-char *_strchr(char *s, char c)
-{
-	int k;
+ * _memcpy - a function that copies memory area
+ * @dest: memory where is stored
+ * @src: memory where is copied
+ * *@n: number of bytes
+ *
+ * Return: copied memory with n byted changed
+ */
 
-	for (k = 0; s[k] >= '\0'; k++)
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	int r = 0;
+	int i = n;
+
+	for (; r < i; r++)
 	{
-	if (s[k] == c)
-	return (s + k);
+		dest[r] = src[r];
+		n--;
 	}
-	return (0);
+	return (dest);
 }
 
