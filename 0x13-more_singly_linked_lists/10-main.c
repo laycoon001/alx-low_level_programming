@@ -50,10 +50,6 @@ int main(void)
 	printf("-----------------\n");
 	delete_nodeint_at_index(&head, 0);
 	printf("-----------------\n");
-
-/**
- * delete a node at index 0 and print a seperator
- * */
 	delete_nodeint_at_index(&head, 0);
 	printf("-----------------\n");
 	delete_nodeint_at_index(&head, 0);
@@ -68,5 +64,5 @@ int main(void)
 	printf("-----------------\n");
 	delete_nodeint_at_index(&head, 0);
 	print_listint(head);
-    return (0);
+	return (0);
 }
