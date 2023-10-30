@@ -2,8 +2,8 @@
 
 /**
  * read_textfile - reads a text file and prints the letters
- * @filename: the name of the text file to be read. 
- * @letters: the number of letters to be printed. 
+ * @filename: the name of the text file to be read.
+ * @letters: the number of letters to be printed.
  *
  * Return: The number of letters printed. If it fails, it returns 0.
  */
